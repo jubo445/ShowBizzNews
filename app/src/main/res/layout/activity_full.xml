@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F8"
+    tools:context=".FullActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:scaleType="fitXY"
+                android:src="@drawable/dummy"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"/>
+
+            <LinearLayout
+                android:layout_below="@+id/image"
+
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="#0C0C0C"
+                    android:layout_above="@id/descTV"
+                    android:id="@+id/titleTV"
+
+
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:text="From Sangeeta Bijlani to Aishwarya Rai Bachchan – Shocking revelations Salman Khan’s ‘lady loves’ have"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textColor="#403D37"
+                    android:layout_alignParentBottom="true"
+                    android:id="@+id/descTV"
+
+
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:padding="3dp"
+                    android:text="A 16 -year-old Somy Ali flew to India with the hopes to marry Salman Khan. She eventually entered in the Bollywood industry to be closer to Salman. However, Salman was dating Sangeeta at that time. Somy Ali revealed that she would be jealous of their romance and hated i"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>
